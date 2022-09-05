@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cezary Komosa</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- 
+      3. Obejmijmy nagłówek i sekcję main divem. Nadajmy też naszemu divowi klasę "container" z angielskiego - "kontener". Kontener na całą zawartość strony.
+      Ok, zobaczmy w devtoolsach co się stało. Mamy diva, który obejmuje nam wszystkie elementy strony. Wrócmy do CSS.
+    -->
+    <div class="container">
+      <header>
+        <img
+          src="zdjcv3.JPG"
+          alt="Zdjęcie profilowe"
+          class="circle profile-picture"
+        />
+        <div class="header-center-element">
+          <h1>Cezary Komosa</h1>
+          <span class="big-font-size"></span>
+          <div>
+            <a class="download-cv-link" href="https://store4.gofile.io/download/faf54b01-48df-41ee-95f1-dd65bef6f4b2/Cezary%20Komosa.pdf">Pobierz CV</a>
+          </div>
+        
+        </div>
+
+        <address>
+          <ul>
+            <!--
+            2. Dodaliśmy klasy. Zobaczmy jak wygląda strona. Zdjęcie się powiększyło, a sekcja adresu wygląda jak poprzednio. Dobrze, dokładnie tak
+            powinien być efekt refaktoryzacji. Dodajmy teraz trochę odstępu od góry w naszym nagłówku. (SKOK DO CSS)
+          -->
+            <li class="address-line-item">
+              <img
+                src="phone.png"
+                class="address-line-item-icon circle"
+                aria-hidden="true"
+              /><b>Telefon:</b
+              > 732 867 131
+            </li>
+            <li class="address-line-item">
+              <img
+                src="mail.png"
+                class="address-line-item-icon circle"
+                aria-hidden="true"
+              /><b>E-mail: </b>
+              komosaczarek@gmail.com
+            </li>
+            <li class="address-line-item">
+              <img
+                src="birthday-cake.png"
+                class="address-line-item-icon circle"
+                aria-hidden="true"
+              /><b>Data urodzenia:</b>
+              18.02.2003
+            </li>
+            <li class="address-line-item">
+              <img
+                src="pin.png"
+                class="address-line-item-icon circle"
+                aria-hidden="true"
+              /><b>Miejsce zamieszkania:</b>
+              Łódź
+            </li>
+          </ul>
+        </address>
+      </header>
+      <main>
+        <section>
+          <h2>O mnie</h2>
+          <p>
+            Mam na imię <b>Czarek!</b> Aktualnie studjuję 
+            <i>budownictwo</i> na Politechnice Łódzkiej.
+            W codziennym życiu stram się przede wszystkim czerpać przyjemność z tego co robię.
+            Jestem entuzjastą pracy zespołowej i uwielbiam kontakt z drugim człowiekiem!
+          </p>
+        </section>
+        <section>
+          <h2>Języki</h2>
+          <ul>
+            <li>Polski - Ojczysty</li>
+            <li>Angielski - C1</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Doświadczenie zawodowe</h2>
+          <ul>
+            <li>
+              2022: pomoc przy imprezach masowych
+              
+            </li>
+            
+          </ul>
+        </section>
+        <section>
+          <h2>Wyszktałcenie</h2>
+          <ul>
+            <li>
+              2022-obecnie:
+              <a href="https://p.lodz.pl/">Politechnika Łódzka</a> -
+              Budownictwo
+            </li>
+            <li>
+              2019-2022:
+              <a href="http://trzecieliceum.pl/"
+                >3 LO w Łodzi</a
+              > - Profil Mat-Fiz
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Zainteresowania</h2>
+          <ul class="hobbies">
+            <li class="hobby">
+              <img src="basketball.png" aria-hidden="true" />
+              <div>
+                <h3>Sport</h3>
+                <p>
+                  Staram się prowadzić zdrowy tryb życia; chodzę regularnie na siłownię oraz biegam.
+                </p>
+              </div>
+            </li>
+            
+            <li class="hobby">
+              <img src="music.png" aria-hidden="true" />
+              <div>
+                <h3>Muzyka</h3>
+                <p>
+                  Otwarty na wszystko, lecz głównie preferuję intensywne brzmienie w tym metal i elektroniczną.
+                </p>
+              </div>
+            </li>
+            
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
